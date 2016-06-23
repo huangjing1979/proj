@@ -1,0 +1,4 @@
+rocket-chip fold is a submodule,
+do 
+git submodule update --init
+in current directory first.
