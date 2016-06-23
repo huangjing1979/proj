@@ -146,7 +146,17 @@
         wire desc_fetch_halt;  // level signal, indicate stop fetch descriptor
 
         wire [C_S00_AXI_LITE_DATA_WIDTH-1:0] cur_src_ptr;
-        wire                          cur_src_ptr_valid;
+        wire                                 cur_src_ptr_valid;
+        wire [1:0]                           cur_trans_type;
+
+        wire                          dev_ready;
+        wire                          dev_busy;
+
+        wire [C_M01_AXI_DATA_WIDTH-1:0] dma2buf_data;
+        wire                          dma2buf_data_valid;
+        wire                          buf2dma_data_rd;
+
+        wire [C_M01_AXI_DATA_WIDTH-1:0] buf2dma_data;
 
 // Instantiation of Axi Bus Interface S00_AXI_LITE
     myip_v1_0_S00_AXI_LITE # ( 
@@ -199,6 +209,8 @@
         .cur_src_ptr           (cur_src_ptr),
         .cur_src_ptr_valid     (cur_src_ptr_valid),
 
+        .cur_trans_type        (cur_trans_type),
+
         .INIT_AXI_TXN(m00_axi_lite_init_axi_txn),
         .ERROR(m00_axi_lite_error),
         .TXN_DONE(m00_axi_lite_txn_done),
@@ -238,6 +250,22 @@
         .C_M_AXI_RUSER_WIDTH(C_M01_AXI_RUSER_WIDTH),
         .C_M_AXI_BUSER_WIDTH(C_M01_AXI_BUSER_WIDTH)
     ) myip_v1_0_M01_AXI_inst (
+
+        .desc_fetch_halt       (desc_fetch_halt),
+        .cur_src_ptr           (cur_src_ptr),
+        .cur_trans_type        (cur_trans_type),
+        .cur_src_ptr_valid     (cur_src_ptr_valid),
+
+        .dma2buf_data           (dma2buf_data           ),
+        .dma2buf_data_valid     (dma2buf_data_valid     ),
+        .buf2dma_data_rd        (buf2dma_data_rd        ),
+                                                        
+        .buf2dma_data           (buf2dma_data           ),
+                                                        
+        .dev_ready              (dev_ready              ),
+        .dev_busy               (dev_busy               ),
+
+
         .INIT_AXI_TXN(m01_axi_init_axi_txn),
         .TXN_DONE(m01_axi_txn_done),
         .ERROR(m01_axi_error),
@@ -288,6 +316,20 @@
     );
 
     // Add user logic here
+    fft_wrapper fft_wrapper_inst(
+        .clk                    (m01_axi_aclk           ),
+        .rst                    (m01_axi_aresetn        ),
+                                                        
+        .dma2buf_data           (dma2buf_data           ),
+        .dma2buf_data_valid     (dma2buf_data_valid     ),
+        .buf2dma_data_rd        (buf2dma_data_rd        ),
+                                                        
+        .buf2dma_data           (buf2dma_data           ),
+                                                        
+        .dev_ready              (dev_ready              ),
+        .dev_busy               (dev_busy               )
+
+    );
 
     // User logic ends
 

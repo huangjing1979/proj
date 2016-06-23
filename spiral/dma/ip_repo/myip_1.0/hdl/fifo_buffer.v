@@ -14,12 +14,21 @@ module fifo_buffer(
   read_from_stack
 );
 
+  function integer clogb2 (input integer bit_depth);              
+  begin                                                           
+    for(clogb2=0; bit_depth>0; clogb2=clogb2+1)                   
+      bit_depth = bit_depth >> 1;                                 
+    end                                                           
+  endfunction                                                     
+
   parameter stack_width=32;
   parameter stack_height=8;
-  parameter stack_ptr_width=3;
   parameter AE_level=2;
   parameter AF_level=6;
   parameter HF_level=4;
+
+  localparam stack_ptr_width=clogb2(stack_height -1);
+
   output [stack_width-1:0] data_out;
  
   output                 stack_full,stack_almost_full,stack_half_full;
@@ -40,7 +49,7 @@ module fifo_buffer(
   assign stack_almost_empty=(ptr_gap==AE_level);
   assign stack_empty=(ptr_gap==0);
  
-  always @(posedge clk or posedge rst)
+  always @(posedge clk)
    if(rst)begin
        data_out<=0;
        read_ptr<=0;
@@ -74,4 +83,6 @@ module fifo_buffer(
        read_ptr<=read_ptr+1;
        write_ptr<=write_ptr+1;
    end
+
+
 endmodule

@@ -33,6 +33,7 @@
         input wire desc_fetch_halt,  // level signal, indicate stop fetch descriptor
 
         output reg [C_M_AXI_DATA_WIDTH-1:0] cur_src_ptr,
+        output reg [1:0]                    cur_trans_type,
         output reg [C_M_AXI_DATA_WIDTH-1:0] cur_dst_ptr,         // 0, rd, 1,wr
 
         output reg                          cur_src_ptr_valid, //
@@ -117,7 +118,8 @@
      localparam integer TRANS_NUM_BITS = clogb2(C_M_TRANSACTIONS_NUM-1);
     
     localparam FETCH_DESC_WORD0 = 2'b00;    // currently, only two word in descriptor.
-    localparam FETCH_DESC_WORD1 = 2'b01;    // word0: next descriptor ptr, word1: current data ptr
+    localparam FETCH_DESC_WORD1 = 2'b01;    // word0: next descriptor ptr, word1: current data ptr, word2: current transtype
+    localparam FETCH_DESC_WORD2 = 2'b10;
 
     // Example State machine to initialize counter, initialize write transactions, 
     // initialize read transactions and comparison of read data with the 
@@ -676,7 +678,7 @@
           last_read <= 1'b0;                                                            
                                                                                         
         //The last read should be associated with a read address ready response         
-        else if ((cur_desc_ptr == bot_desc_ptr) && (M_AXI_ARREADY) && (cur_state == FETCH_DESC_WORD1))              
+        else if ((cur_desc_ptr == bot_desc_ptr) && (M_AXI_ARREADY) && (cur_state == FETCH_DESC_WORD2))              
           last_read <= 1'b1;                                                            
         else                                                                            
           last_read <= last_read;                                                       
@@ -735,7 +737,7 @@
     begin
         if (M_AXI_ARESETN == 0  || init_txn_pulse == 1'b1)                                                         
           desc_fetch_next <= 'h0;                                                            
-        else if (M_AXI_RVALID && (cur_state == FETCH_DESC_WORD1))
+        else if (M_AXI_RVALID && (cur_state == FETCH_DESC_WORD2))
           desc_fetch_next <= 1'b1;
         else 
           desc_fetch_next <= 1'b1;
@@ -757,12 +759,19 @@
           cur_src_ptr <= M_AXI_RDATA;
     end
 
+    always @(posedge M_AXI_ACLK)
+    begin
+        if (M_AXI_ARESETN == 0  || init_txn_pulse == 1'b1)                                                         
+          cur_trans_type <= 'h0;                                                            
+        else if (M_AXI_RVALID && (cur_state == FETCH_DESC_WORD2))
+          cur_trans_type <= M_AXI_RDATA[1:0];
+    end
 
     always @(posedge M_AXI_ACLK)
     begin
         if (M_AXI_ARESETN == 0  || init_txn_pulse == 1'b1)                                                         
           cur_src_ptr_valid <= 'h0;                                                            
-        else if (M_AXI_RVALID && (cur_state == FETCH_DESC_WORD1))
+        else if (M_AXI_RVALID && (cur_state == FETCH_DESC_WORD2))
           cur_src_ptr_valid <= 1'b1;
         else if(~desc_fetch_halt) 
           cur_src_ptr_valid <= 1'b0;
@@ -782,7 +791,8 @@
         next_state = cur_state;
         case (cur_state)    // synopsys parallel_case full_case
             FETCH_DESC_WORD0: next_state = M_AXI_RVALID ? FETCH_DESC_WORD1 : cur_state;
-            FETCH_DESC_WORD1: next_state = M_AXI_RVALID ? FETCH_DESC_WORD0 : cur_state;
+            FETCH_DESC_WORD1: next_state = M_AXI_RVALID ? FETCH_DESC_WORD2 : cur_state;
+            FETCH_DESC_WORD2: next_state = M_AXI_RVALID ? FETCH_DESC_WORD0 : cur_state;
         endcase
     end
 
