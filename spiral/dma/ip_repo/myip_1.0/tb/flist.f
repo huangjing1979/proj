@@ -1,0 +1,11 @@
+axi_full_slave.v
+axi_lite_master.v
+axi_lite_slave.v
+tb.v
+../hdl/fft_wrapper.v
+../hdl/fifo_buffer.v
+../hdl/myip_v1_0_M00_AXI_LITE.v
+../hdl/myip_v1_0_M01_AXI.v
+../hdl/myip_v1_0_S00_AXI_LITE.v
+../hdl/myip_v1_0.v
+../hdl/spiral_dft_size64_forward_8bfixunscaled_fullstream_radix2_streamwidth2_naturalinnaturalout.v
