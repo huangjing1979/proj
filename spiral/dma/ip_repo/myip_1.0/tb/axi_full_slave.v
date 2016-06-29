@@ -584,17 +584,22 @@
 	endgenerate
 	//Output register or memory read data
 
+    initial begin
+        axi_rdata = 32'hdeadface;
+    end
+
 	always @( mem_data_out, axi_rvalid)
 	begin
 	  if (axi_rvalid) 
 	    begin
 	      // Read address mux
-	      axi_rdata <= mem_data_out[0];
+	      axi_rdata <= axi_rdata + 32'h11111111;
+	      //axi_rdata <= mem_data_out[0];
 	    end   
-	  else
-	    begin
-	      axi_rdata <= 32'h00000000;
-	    end       
+	  //else
+	  //  begin
+	  //    axi_rdata <= 32'h00000000;
+	  //  end       
 	end    
 
 	// Add user logic here

@@ -9,10 +9,37 @@ initial begin
     begin
         forever clk = #5 ~clk;
     end
-    join
+    join_none
     
     repeat (5) @ (posedge clk);
     rstn = 1'b1;
+
+    repeat (5) @ (posedge clk);
+
+    force tb.dut.myip_v1_0_S00_AXI_LITE_inst.slv_reg0 = 'h14;  // top_desc_ptr
+    force tb.dut.myip_v1_0_S00_AXI_LITE_inst.slv_reg1 = 'h58;  // bot_desc_ptr
+
+
+    force tb.axi_lite_slave.slv_reg5 = 'h2c;     // 0x14
+    force tb.axi_lite_slave.slv_reg6 = 'h1000;
+    force tb.axi_lite_slave.slv_reg7 = 'h0;
+
+    force tb.axi_lite_slave.slv_reg11 = 'h40;     // 0x2c
+    force tb.axi_lite_slave.slv_reg12 = 'h2000;
+    force tb.axi_lite_slave.slv_reg13 = 'h0;
+
+    force tb.axi_lite_slave.slv_reg16 = 'h58;     // 0x40
+    force tb.axi_lite_slave.slv_reg17 = 'h3000;
+    force tb.axi_lite_slave.slv_reg18 = 'h1;
+
+    force tb.axi_lite_slave.slv_reg22 = 'h0;     // 0x58
+    force tb.axi_lite_slave.slv_reg23 = 'h4000;
+    force tb.axi_lite_slave.slv_reg24 = 'h1;
+
+    force tb.dut.myip_v1_0_S00_AXI_LITE_inst.slv_reg3 = 'h1;   // start
+    @(posedge clk);
+    #1;
+    force tb.dut.myip_v1_0_S00_AXI_LITE_inst.slv_reg3 = 'h0;   // start
 end
 
 
@@ -304,6 +331,5 @@ myip_test_v1_0_M00_AXI  axi_conf_master(
         .M_AXI_RVALID      (axi_conf_rvalid  ),
         .M_AXI_RREADY      (axi_conf_rready  )
 );
-
 
 endmodule

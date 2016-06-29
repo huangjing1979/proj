@@ -12,7 +12,7 @@
         parameter  C_M_START_DATA_VALUE    = 32'hAA000000,
         // The master requires a target slave base address.
     // The master will initiate read and write transactions on the slave with base address specified here as a parameter.
-        parameter  C_M_TARGET_SLAVE_BASE_ADDR    = 32'h40000000,
+        parameter  C_M_TARGET_SLAVE_BASE_ADDR    = 32'h00000000,
         // Width of M_AXI address bus. 
     // The master generates the read and write addresses of width specified as C_M_AXI_ADDR_WIDTH.
         parameter integer C_M_AXI_ADDR_WIDTH    = 32,
@@ -506,10 +506,10 @@
               end                                                   
               // Signals a new write address/ write data is         
               // available by user logic                            
-            else if (M_AXI_ARREADY && axi_arvalid)                  
-              begin                                                 
+            else if (start_single_read && (cur_state == FETCH_DESC_WORD0))
+                axi_araddr <= cur_desc_ptr;
+            else if (start_single_read && (cur_state != FETCH_DESC_WORD0))
                 axi_araddr <= axi_araddr + 32'h00000004;            
-              end                                                   
           end                                                       
                                                                     
                                                                     
@@ -740,7 +740,7 @@
         else if (M_AXI_RVALID && (cur_state == FETCH_DESC_WORD2))
           desc_fetch_next <= 1'b1;
         else 
-          desc_fetch_next <= 1'b1;
+          desc_fetch_next <= 1'b0;
     end
 
     always @(posedge M_AXI_ACLK)
@@ -771,9 +771,9 @@
     begin
         if (M_AXI_ARESETN == 0  || init_txn_pulse == 1'b1)                                                         
           cur_src_ptr_valid <= 'h0;                                                            
-        else if (M_AXI_RVALID && (cur_state == FETCH_DESC_WORD2))
+        else if (M_AXI_RVALID && M_AXI_RREADY && (cur_state == FETCH_DESC_WORD2))
           cur_src_ptr_valid <= 1'b1;
-        else if(~desc_fetch_halt) 
+        else
           cur_src_ptr_valid <= 1'b0;
     end
 
@@ -790,9 +790,9 @@
     begin
         next_state = cur_state;
         case (cur_state)    // synopsys parallel_case full_case
-            FETCH_DESC_WORD0: next_state = M_AXI_RVALID ? FETCH_DESC_WORD1 : cur_state;
-            FETCH_DESC_WORD1: next_state = M_AXI_RVALID ? FETCH_DESC_WORD2 : cur_state;
-            FETCH_DESC_WORD2: next_state = M_AXI_RVALID ? FETCH_DESC_WORD0 : cur_state;
+            FETCH_DESC_WORD0: next_state = (M_AXI_RVALID && M_AXI_RREADY) ? FETCH_DESC_WORD1 : cur_state;
+            FETCH_DESC_WORD1: next_state = (M_AXI_RVALID && M_AXI_RREADY) ? FETCH_DESC_WORD2 : cur_state;
+            FETCH_DESC_WORD2: next_state = (M_AXI_RVALID && M_AXI_RREADY) ? FETCH_DESC_WORD0 : cur_state;
         endcase
     end
 

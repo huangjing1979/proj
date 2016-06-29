@@ -15,7 +15,7 @@
 
         // Parameters of Axi Master Bus Interface M00_AXI_LITE
         parameter  C_M00_AXI_LITE_START_DATA_VALUE    = 32'hAA000000,
-        parameter  C_M00_AXI_LITE_TARGET_SLAVE_BASE_ADDR    = 32'h40000000,
+        parameter  C_M00_AXI_LITE_TARGET_SLAVE_BASE_ADDR    = 32'h00000000,
         parameter integer C_M00_AXI_LITE_ADDR_WIDTH    = 32,
         parameter integer C_M00_AXI_LITE_DATA_WIDTH    = 32,
         parameter integer C_M00_AXI_LITE_TRANSACTIONS_NUM    = 4,
@@ -158,6 +158,8 @@
 
         wire [C_M01_AXI_DATA_WIDTH-1:0] buf2dma_data;
 
+        wire [31:0]                     trans_cnt;
+
 // Instantiation of Axi Bus Interface S00_AXI_LITE
     myip_v1_0_S00_AXI_LITE # ( 
         .C_S_AXI_DATA_WIDTH(C_S00_AXI_LITE_DATA_WIDTH),
@@ -167,6 +169,8 @@
         .top_desc_ptr(top_desc_ptr),
         .bot_desc_ptr(bot_desc_ptr),
         .desc_fetch_start (desc_fetch_start),
+
+        .trans_cnt          (trans_cnt),
         // End of User Signals
 
         .S_AXI_ACLK(s00_axi_lite_aclk),
@@ -200,16 +204,18 @@
         .C_M_AXI_DATA_WIDTH(C_M00_AXI_LITE_DATA_WIDTH),
         .C_M_TRANSACTIONS_NUM(C_M00_AXI_LITE_TRANSACTIONS_NUM)
     ) myip_v1_0_M00_AXI_LITE_inst (
-        .top_desc_ptr           (top_desc_ptr),
-        .bot_desc_ptr           (bot_desc_ptr),
-        .desc_fetch_start       (desc_fetch_start),
+        .top_desc_ptr           (top_desc_ptr       ),
+        .bot_desc_ptr           (bot_desc_ptr       ),
+        .desc_fetch_start       (desc_fetch_start   ),
 
 
-        .desc_fetch_halt       (desc_fetch_halt),
-        .cur_src_ptr           (cur_src_ptr),
-        .cur_src_ptr_valid     (cur_src_ptr_valid),
+        .desc_fetch_halt        (desc_fetch_halt    ),
+        .cur_src_ptr            (cur_src_ptr        ),
+        .cur_src_ptr_valid      (cur_src_ptr_valid  ),
 
-        .cur_trans_type        (cur_trans_type),
+        .cur_trans_type         (cur_trans_type     ),
+
+        .cur_dst_ptr            (                   ),
 
         .INIT_AXI_TXN(m00_axi_lite_init_axi_txn),
         .ERROR(m00_axi_lite_error),
@@ -264,6 +270,7 @@
                                                         
         .dev_ready              (dev_ready              ),
         .dev_busy               (dev_busy               ),
+        .trans_cnt              (trans_cnt              ),
 
 
         .INIT_AXI_TXN(m01_axi_init_axi_txn),
@@ -318,7 +325,7 @@
     // Add user logic here
     fft_wrapper fft_wrapper_inst(
         .clk                    (m01_axi_aclk           ),
-        .rst                    (m01_axi_aresetn        ),
+        .rst                    (~m01_axi_aresetn        ),
                                                         
         .dma2buf_data           (dma2buf_data           ),
         .dma2buf_data_valid     (dma2buf_data_valid     ),

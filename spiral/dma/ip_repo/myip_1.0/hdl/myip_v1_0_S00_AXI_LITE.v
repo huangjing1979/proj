@@ -20,6 +20,8 @@
 
         output wire desc_fetch_start, // pulse signal
 
+        input wire [31:0]                     trans_cnt,
+
 		// User ports ends
 		// Do not modify the ports beyond this line
 
@@ -656,7 +658,7 @@
 	        5'h04   : reg_data_out <= slv_reg4;
 	        5'h05   : reg_data_out <= slv_reg5;
 	        5'h06   : reg_data_out <= slv_reg6;
-	        5'h07   : reg_data_out <= slv_reg7;
+	        5'h07   : reg_data_out <= trans_cnt;
 	        5'h08   : reg_data_out <= slv_reg8;
 	        5'h09   : reg_data_out <= slv_reg9;
 	        5'h0A   : reg_data_out <= slv_reg10;

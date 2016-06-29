@@ -45,6 +45,7 @@
 
         input  wire [C_M_AXI_DATA_WIDTH-1:0] buf2dma_data,
 
+        output reg [31:0] trans_cnt,
         // User ports ends
         // Do not modify the ports beyond this line
 
@@ -206,12 +207,15 @@
             // of the written data with the read data    
         GET_TRANS  = 3'b100;
 
-    parameter [1:0]     TRANS_WR = 2'b00, TRANS_RD = 2'b01;
+    parameter [1:0]     TRANS_WR = 2'b01, TRANS_RD = 2'b00;
 
     wire [1:0]   trans_type;
     wire [31:0]  trans_addr;
 
+    wire start_single_burst_write_p;
+
     reg [2:0] mst_exec_state;
+    reg       trans_done;
 
     // AXI4LITE signals
     //AXI4 internal temp signals
@@ -233,9 +237,10 @@
     //The burst counters are used to track the number of burst transfers of C_M_AXI_BURST_LEN burst length needed to transfer 2^C_MASTER_LENGTH bytes of data.
     reg [C_NO_BURSTS_REQ : 0]     write_burst_counter;
     reg [C_NO_BURSTS_REQ : 0]     read_burst_counter;
-    wire     start_single_burst_write;
+    reg      start_single_burst_write;
     wire     start_single_burst_read;
-    reg      writes_done;
+    wire     writes_done;
+    //reg      writes_done;
     reg      reads_done;
     reg      error_reg;
     reg      compare_done;
@@ -346,26 +351,15 @@
     // by burst_size_byte to point to the next address. 
 
       always @(posedge M_AXI_ACLK)                                   
-      begin                                                                
-                                                                           
         if (M_AXI_ARESETN == 0 || init_txn_pulse == 1'b1 )                                           
-          begin                                                            
             axi_awvalid <= 1'b0;                                           
-          end                                                              
         // If previously not valid , start next transaction                
-        else if (~axi_awvalid && start_single_burst_write)                 
-          begin                                                            
+        else if (~axi_awvalid && start_single_burst_write_p)                 
             axi_awvalid <= 1'b1;                                           
-          end                                                              
         /* Once asserted, VALIDs cannot be deasserted, so axi_awvalid      
         must wait until transaction is accepted */                         
         else if (M_AXI_AWREADY && axi_awvalid)                             
-          begin                                                            
             axi_awvalid <= 1'b0;                                           
-          end                                                              
-        else                                                               
-          axi_awvalid <= axi_awvalid;                                      
-        end                                                                
                                                                            
                                                                            
     // Next address after AWREADY indicates previous address acceptance    
@@ -379,10 +373,10 @@
         begin
             axi_awaddr <= trans_addr;
         end
-        else if (M_AXI_AWREADY && axi_awvalid)                             
-        begin                                                            
-            axi_awaddr <= axi_awaddr + burst_size_bytes;                   
-        end                                                              
+   //     else if (M_AXI_AWREADY && axi_awvalid)                             
+   //     begin                                                            
+   //         axi_awaddr <= axi_awaddr + burst_size_bytes;                   
+   //     end                                                              
 //        else                                                               
 //          axi_awaddr <= axi_awaddr;                                        
       end                                                                
@@ -421,22 +415,16 @@
         begin                                                                         
             axi_wvalid <= 1'b0;                                                         
         end                                                                           
+        else if (axi_wlast)
+          axi_wvalid <= 1'b0;                                                           
         // If previously not valid, start next transaction                              
-        else if (~axi_wvalid && start_single_burst_write)                               
+        else if (~axi_wvalid && start_single_burst_write && ~dev_busy && ~axi_wlast)                               
         begin                                                                         
             axi_wvalid <= 1'b1;                                                         
         end                                                                           
         /* If WREADY and too many writes, throttle WVALID                               
         Once asserted, VALIDs cannot be deasserted, so WVALID                           
         must wait until burst is complete with WLAST */                                 
-        else if (wnext && axi_wlast)                                                    
-        begin
-          axi_wvalid <= 1'b0;                                                           
-        end
-        else                                                                            
-        begin
-          axi_wvalid <= axi_wvalid;                                                     
-        end
       end                                                                               
                                                                                         
                                                                                         
@@ -462,8 +450,6 @@
           axi_wlast <= 1'b0;                                                            
         else if (axi_wlast && C_M_AXI_BURST_LEN == 1)                                   
           axi_wlast <= 1'b0;                                                            
-        else                                                                            
-          axi_wlast <= axi_wlast;                                                       
       end                                                                               
                                                                                         
                                                                                         
@@ -471,7 +457,7 @@
      count to reduce decode logic */                                                    
       always @(posedge M_AXI_ACLK)                                                      
       begin                                                                             
-        if (M_AXI_ARESETN == 0 || init_txn_pulse == 1'b1 || start_single_burst_write == 1'b1)    
+        if (M_AXI_ARESETN == 0)
           begin                                                                         
             write_index <= 0;                                                           
           end                                                                           
@@ -479,10 +465,9 @@
           begin                                                                         
             write_index <= write_index + 1;                                             
           end                                                                           
-        else                                                                            
-          write_index <= write_index;                                                   
+        else if(axi_wlast)                                                                            
+          write_index <= 'h0;                                                   
       end                                                                               
-                                                                                        
                                                                                         
     /* Write Data Generator                                                             
      Data pattern is only a simple incrementing count from 0 for each burst  */         
@@ -782,8 +767,27 @@
             read_from_stack_d <= read_from_stack;
       end
 
-      assign start_single_burst_write = read_from_stack_d && (trans_type == TRANS_WR);
       assign start_single_burst_read  = read_from_stack_d && (trans_type == TRANS_RD);
+
+      always @ ( posedge M_AXI_ACLK)                                                                            
+      begin                                                                                                     
+        if (M_AXI_ARESETN == 1'b0 )                                                                             
+            start_single_burst_write <= 1'b0;
+        else if(read_from_stack_d && (trans_type == TRANS_WR))
+            start_single_burst_write <= 1'b1;
+        else if(M_AXI_WLAST)
+            start_single_burst_write <= 1'b0;
+      end
+
+       reg start_single_burst_write_d;
+      always @ ( posedge M_AXI_ACLK)                                                                            
+        if (M_AXI_ARESETN == 1'b0 )                                                                             
+            start_single_burst_write_d <= 1'b0;
+        else
+            start_single_burst_write_d <= start_single_burst_write;
+
+        assign start_single_burst_write_p = start_single_burst_write && ~start_single_burst_write_d;
+
         
                                                                                                                 
       always @ ( posedge M_AXI_ACLK)                                                                            
@@ -795,6 +799,8 @@
             mst_exec_state      <= IDLE;                                                                
             compare_done      <= 1'b0;                                                                          
             ERROR <= 1'b0;   
+            read_from_stack  <= 1'b0;
+            trans_done       <= 1'b0;
           end                                                                                                   
         else                                                                                                    
           begin                                                                                                 
@@ -805,16 +811,15 @@
                 // This state is responsible to wait for user defined C_M_START_COUNT                           
                 // number of clock cycles.                                                                      
                 //if ( init_txn_pulse == 1'b1)                                                      
+                begin
+                trans_done <= 1'b0;
                 if ( ~stack_empty)
                   begin                                                                                         
                     mst_exec_state  <= GET_TRANS;                                                              
                     read_from_stack <= 1'b1;
                     ERROR <= 1'b0;
                   end                                                                                           
-                else 
-                  begin                                                                                         
-                    mst_exec_state  <= IDLE;                                                            
-                  end                                                                                           
+                end
 
               GET_TRANS:
               begin
@@ -822,7 +827,7 @@
                  if((trans_type == TRANS_RD) && dev_ready) begin // for transfer data from ddr -> buffer
                     mst_exec_state  <= INIT_READ;                                                              
                  end
-                 else if(~dev_busy) begin                        // for transfer data from buffer -> ddr
+                 else if((trans_type == TRANS_WR) && ~dev_busy) begin                        // for transfer data from buffer -> ddr
                     mst_exec_state  <= INIT_WRITE;                                                              
                  end
               end
@@ -837,10 +842,7 @@
                 if (writes_done)                                                                                
                   begin                                                                                         
                     mst_exec_state <= IDLE;//                                                              
-                  end                                                                                           
-                else                                                                                            
-                  begin                                                                                         
-                    mst_exec_state  <= INIT_WRITE;                                                              
+                    trans_done <= 1'b1;
                   end                                                                                           
                 end
                                                                                                                 
@@ -849,14 +851,13 @@
                 // initiate a read transaction. Read transactions will be                                       
                 // issued until burst_read_active signal is asserted.                                           
                 // read controller                                                                              
+                begin
                 if (reads_done)                                                                                 
                   begin                                                                                         
                     mst_exec_state <= IDLE;                                                             
+                    trans_done <= 1'b1;
                   end                                                                                           
-                else                                                                                            
-                  begin                                                                                         
-                    mst_exec_state  <= INIT_READ;                                                               
-                  end
+                end
                                                                                                                 
               INIT_COMPARE:                  // dead state, to be deleted
                 // This state is responsible to issue the state of comparison                                   
@@ -898,18 +899,22 @@
      // response. This demonstrates how to confirm that a write has been                                        
      // committed.                                                                                              
                                                                                                                 
-      always @(posedge M_AXI_ACLK)                                                                              
-      begin                                                                                                     
-        if (M_AXI_ARESETN == 0 || init_txn_pulse == 1'b1)                                                                                 
-          writes_done <= 1'b0;                                                                                  
-                                                                                                                
-        //The writes_done should be associated with a bready response                                           
-        //else if (M_AXI_BVALID && axi_bready && (write_burst_counter == {(C_NO_BURSTS_REQ-1){1}}) && axi_wlast)
-        else if (M_AXI_BVALID && (write_burst_counter[C_NO_BURSTS_REQ]) && axi_bready)                          
-          writes_done <= 1'b1;                                                                                  
-        else                                                                                                    
-          writes_done <= writes_done;                                                                           
-        end                                                                                                     
+    //  always @(posedge M_AXI_ACLK)                                                                              
+    //  begin                                                                                                     
+    //    if (M_AXI_ARESETN == 0 || init_txn_pulse == 1'b1)                                                                                 
+    //      writes_done <= 1'b0;                                                                                  
+    //                                                                                                            
+    //    //The writes_done should be associated with a bready response                                           
+    //    //else if (M_AXI_BVALID && axi_bready && (write_burst_counter == {(C_NO_BURSTS_REQ-1){1}}) && axi_wlast)
+    //   // else if (M_AXI_BVALID && (write_burst_counter[C_NO_BURSTS_REQ]) && axi_bready)                          
+    //    //else if (M_AXI_BVALID && (write_index == C_M_AXI_BURST_LEN-1)&& axi_bready)                          
+    //    else if (M_AXI_BVALID && M_AXI_BREADY)
+    //      writes_done <= 1'b1;                                                                                  
+    //    else
+    //      writes_done <= 1'b0;                                                                                  
+    // end
+
+    assign writes_done = (M_AXI_BVALID && M_AXI_BREADY);
                                                                                                                 
       // burst_read_active signal is asserted when there is a burst write transaction                           
       // is initiated by the assertion of start_single_burst_write. start_single_burst_read                     
@@ -940,10 +945,11 @@
                                                                                                                 
         //The reads_done should be associated with a rready response                                            
         //else if (M_AXI_BVALID && axi_bready && (write_burst_counter == {(C_NO_BURSTS_REQ-1){1}}) && axi_wlast)
-        else if (M_AXI_RVALID && axi_rready && (read_index == C_M_AXI_BURST_LEN-1) && (read_burst_counter[C_NO_BURSTS_REQ]))
+        //else if (M_AXI_RVALID && axi_rready && (read_index == C_M_AXI_BURST_LEN-1) && (read_burst_counter[C_NO_BURSTS_REQ]))
+        else if (M_AXI_RVALID && axi_rready && (read_index == C_M_AXI_BURST_LEN-1))
           reads_done <= 1'b1;                                                                                   
         else                                                                                                    
-          reads_done <= reads_done;                                                                             
+          reads_done <= 1'b0;                                                                             
         end                                                                                                     
 
     // Add user logic here
@@ -973,9 +979,17 @@
     assign trans_type = data_out[33:32];
     assign trans_addr = data_out[31:0];
     assign dma2buf_data       =  M_AXI_RDATA;
-    assign dma2buf_data_valid =  M_AXI_RVALID;
+    assign dma2buf_data_valid =  M_AXI_RVALID && M_AXI_RREADY;
 
     assign M_AXI_WDATA        = buf2dma_data;
     assign buf2dma_data_rd    = wnext;
+
+
+    always @ (posedge M_AXI_ACLK)
+        if (M_AXI_ARESETN == 0 || init_txn_pulse == 1'b1)                                                                                 
+            trans_cnt <= 'h0;
+        else if (trans_done)
+            trans_cnt <= trans_cnt + 1;
+    
 
     endmodule

@@ -14,7 +14,10 @@ module fft_wrapper(
 );
 
 wire in_fifo_full;
+wire out_fifo_full;
+wire out_fifo_empty;
 reg  in_fifo_rd;
+wire next_out;
 
 wire [31:0] in_fifo_data_out;
 wire in_fifo_empty;
@@ -57,8 +60,8 @@ begin
     endcase
 end
 
-assign dev_ready = (cur_state == IDLE);
-assign dev_busy = ((cur_state != FLUSH_OUT) && (cur_state != IDLE));
+assign dev_ready = (cur_state == IDLE) || (cur_state == FILL_IN);
+assign dev_busy = (cur_state == COMPUTE) || (cur_state == FILL_OUT) || (cur_state == FILL_IN);
 
 fifo_buffer  #(
             .stack_width        (32),
@@ -106,7 +109,6 @@ always @ (posedge clk)
         in_fifo_rd <= 1'b0;
 
 
-wire next_out;
         
 
 dft_top    dft_top_inst(
@@ -128,12 +130,14 @@ dft_top    dft_top_inst(
 
 reg out_fifo_wr;
 
+wire out_fifo_am_full;
+
 always @ (posedge clk)
     if(rst)
         out_fifo_wr <= 'h0;
     else if(next_out)
         out_fifo_wr <= 'h1;
-    else if(out_fifo_full)
+    else if(out_fifo_am_full)
         out_fifo_wr <= 'h0;
         
 
@@ -141,19 +145,19 @@ fifo_buffer  #(
             .stack_width        (32),
             .stack_height       (32),
             .AE_level           (1),
-            .AF_level           (30),
+            .AF_level           (31),
             .HF_level           (16)
         ) out_fifo(
             .clk                (clk                ),
             .rst                (rst                ),
             .stack_full         (out_fifo_full      ),
-            .stack_almost_full  (),
+            .stack_almost_full  (out_fifo_am_full),
             .stack_half_full    (),
             .stack_almost_empty (),
             .stack_empty        (out_fifo_empty),
                                                    
             .data_in            ({Y3, Y2, Y1, Y0}),
-            .write_to_stack     (out_fifo_wr),
+            .write_to_stack     (out_fifo_wr ),
 
             .read_from_stack    (buf2dma_data_rd),
             .data_out           (buf2dma_data)
