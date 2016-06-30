@@ -1,0 +1,9 @@
+#
+# An unexpected error has occurred (11)
+#
+Stack:
+/edatools/Xilinx/Vivado/2015.4/tps/lnx64/jre/lib/amd64/server/libjvm.so(+0x90ea59) [0x7f47fbadca59]
+/edatools/Xilinx/Vivado/2015.4/tps/lnx64/jre/lib/amd64/server/libjvm.so(JVM_handle_linux_signal+0xb6) [0x7f47fbae2b46]
+/edatools/Xilinx/Vivado/2015.4/tps/lnx64/jre/lib/amd64/server/libjvm.so(+0x90b493) [0x7f47fbad9493]
+/lib/x86_64-linux-gnu/libc.so.6(+0x352f0) [0x7f482b85b2f0]
+[0x17a112e8]

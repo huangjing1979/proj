@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Tue Jun 14 13:16:54 2016
+# Process ID: 4531
+# Current directory: /home/node003/work/proj/spiral/dma
+# Command line: vivado
+# Log file: /home/node003/work/proj/spiral/dma/vivado.log
+# Journal file: /home/node003/work/proj/spiral/dma/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/node003/work/proj/spiral/dma/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/node003/work/proj/spiral/dma/ip_repo/axi_fft_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/edatools/Xilinx/Vivado/2015.4/data/ip'.
+open_bd_design {/home/node003/work/proj/spiral/dma/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- user.org:user:axi_fft:1.0 - axi_fft_0
+Successfully read diagram <design_1> from BD file </home/node003/work/proj/spiral/dma/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd>
+set_property -dict [list CONFIG.C_M00_AXI_BURST_LEN {32}] [get_bd_cells axi_fft_0]
+save_bd_design
+Wrote  : </home/node003/work/proj/spiral/dma/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd> 
+close_project
+open_project /home/node003/work/proj/spiral/dma/fft_dma/fft_dma.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/edatools/Xilinx/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 5994.363 ; gain = 70.617 ; free physical = 27510 ; free virtual = 62705
+open_bd_design {/home/node003/work/proj/spiral/dma/fft_dma/fft_dma.srcs/sources_1/bd/design_1/design_1.bd}
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_processing_system7_0_50M
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:1.1 - axis_data_fifo_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <design_1> from BD file </home/node003/work/proj/spiral/dma/fft_dma/fft_dma.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 6050.434 ; gain = 52.684 ; free physical = 27426 ; free virtual = 62622

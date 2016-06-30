@@ -1,0 +1,2714 @@
+13:51:22 **** Build of project hello_world_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_3/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/myip_v1_0/src
+make -C ps7_cortexa9_0/libsrc/myip_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_6/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_1/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling ddrps
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_3/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling iicps
+Running Make libs in ps7_cortexa9_0/libsrc/myip_v1_0/src
+make -C ps7_cortexa9_0/libsrc/myip_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling myip...
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_6/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_1/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling ttcps
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scutimer
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling qspips
+Finished building libraries
+13:51:33 **** Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+13:51:35 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for 'all'.
+14:01:39 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for 'all'.
+14:55:30 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+../src/helloworld.c:56:1: error: stray '\343' in program
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+ 　　　　{
+ ^
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\343' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\343' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\343' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\343' in program
+ 　　　　int a;
+ ^
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\343' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\343' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\343' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:58:1: error: stray '\343' in program
+ 　　　　}Desc;
+ ^
+../src/helloworld.c:58:1: error: stray '\200' in program
+../src/helloworld.c:58:1: error: stray '\200' in program
+../src/helloworld.c:58:1: error: stray '\343' in program
+../src/helloworld.c:58:1: error: stray '\200' in program
+../src/helloworld.c:58:1: error: stray '\200' in program
+../src/helloworld.c:58:1: error: stray '\343' in program
+../src/helloworld.c:58:1: error: stray '\200' in program
+../src/helloworld.c:58:1: error: stray '\200' in program
+../src/helloworld.c:58:1: error: stray '\343' in program
+../src/helloworld.c:58:1: error: stray '\200' in program
+../src/helloworld.c:58:1: error: stray '\200' in program
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:68:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'cleanup_platform'
+     cleanup_platform();
+     ^
+make: *** [src/helloworld.o] Error 1
+14:55:41 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:56:1: error: stray '\343' in program
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+ 　　　　{
+ ^
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\343' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\343' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\343' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\343' in program
+ 　　　　unsigned int a;
+ ^
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\343' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\343' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\343' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:58:1: error: stray '\343' in program
+ 　　　　}Desc;
+ ^
+../src/helloworld.c:58:1: error: stray '\200' in program
+../src/helloworld.c:58:1: error: stray '\200' in program
+../src/helloworld.c:58:1: error: stray '\343' in program
+../src/helloworld.c:58:1: error: stray '\200' in program
+../src/helloworld.c:58:1: error: stray '\200' in program
+../src/helloworld.c:58:1: error: stray '\343' in program
+../src/helloworld.c:58:1: error: stray '\200' in program
+../src/helloworld.c:58:1: error: stray '\200' in program
+../src/helloworld.c:58:1: error: stray '\343' in program
+../src/helloworld.c:58:1: error: stray '\200' in program
+../src/helloworld.c:58:1: error: stray '\200' in program
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:68:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'cleanup_platform'
+     cleanup_platform();
+     ^
+make: *** [src/helloworld.o] Error 1
+14:55:52 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+../src/helloworld.c:56:1: error: stray '\343' in program
+ 　　　　{
+ ^
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\343' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\343' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\343' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\343' in program
+ 　　　　unsigned int a;
+ ^
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\343' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\343' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\343' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:58:1: error: stray '\343' in program
+ 　　　　}Desc;
+ ^
+../src/helloworld.c:58:1: error: stray '\200' in program
+../src/helloworld.c:58:1: error: stray '\200' in program
+../src/helloworld.c:58:1: error: stray '\343' in program
+../src/helloworld.c:58:1: error: stray '\200' in program
+../src/helloworld.c:58:1: error: stray '\200' in program
+../src/helloworld.c:58:1: error: stray '\343' in program
+../src/helloworld.c:58:1: error: stray '\200' in program
+../src/helloworld.c:58:1: error: stray '\200' in program
+../src/helloworld.c:58:1: error: stray '\343' in program
+../src/helloworld.c:58:1: error: stray '\200' in program
+../src/helloworld.c:58:1: error: stray '\200' in program
+make: *** [src/helloworld.o] Error 1
+14:56:17 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:54:1: error: stray '\343' in program
+ 　　　　{
+ ^
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\343' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\343' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\343' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:55:1: error: stray '\343' in program
+ 　　　　unsigned int a;
+ ^
+../src/helloworld.c:55:1: error: stray '\200' in program
+../src/helloworld.c:55:1: error: stray '\200' in program
+../src/helloworld.c:55:1: error: stray '\343' in program
+../src/helloworld.c:55:1: error: stray '\200' in program
+../src/helloworld.c:55:1: error: stray '\200' in program
+../src/helloworld.c:55:1: error: stray '\343' in program
+../src/helloworld.c:55:1: error: stray '\200' in program
+../src/helloworld.c:55:1: error: stray '\200' in program
+../src/helloworld.c:55:1: error: stray '\343' in program
+../src/helloworld.c:55:1: error: stray '\200' in program
+../src/helloworld.c:55:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\343' in program
+ 　　　　}Desc;
+ ^
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\343' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\343' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\343' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+make: *** [src/helloworld.o] Error 1
+14:56:24 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+14:56:30 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:54:1: error: stray '\343' in program
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+ 　　　　{
+ ^
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\343' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\343' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\343' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:55:1: error: stray '\343' in program
+ 　　　　unsigned int a;
+ ^
+../src/helloworld.c:55:1: error: stray '\200' in program
+../src/helloworld.c:55:1: error: stray '\200' in program
+../src/helloworld.c:55:1: error: stray '\343' in program
+../src/helloworld.c:55:1: error: stray '\200' in program
+../src/helloworld.c:55:1: error: stray '\200' in program
+../src/helloworld.c:55:1: error: stray '\343' in program
+../src/helloworld.c:55:1: error: stray '\200' in program
+../src/helloworld.c:55:1: error: stray '\200' in program
+../src/helloworld.c:55:1: error: stray '\343' in program
+../src/helloworld.c:55:1: error: stray '\200' in program
+../src/helloworld.c:55:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\343' in program
+ 　　　　}Desc;
+ ^
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\343' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\343' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\343' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+../src/helloworld.c:56:1: error: stray '\200' in program
+make: *** [src/helloworld.o] Error 1
+14:56:59 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:54:1: error: stray '\343' in program
+ 　　　　{
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+ ^
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\343' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\343' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\343' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:55:1: error: stray '\343' in program
+ 　　　　unsigned int a;
+ ^
+../src/helloworld.c:55:1: error: stray '\200' in program
+../src/helloworld.c:55:1: error: stray '\200' in program
+../src/helloworld.c:55:1: error: stray '\343' in program
+../src/helloworld.c:55:1: error: stray '\200' in program
+../src/helloworld.c:55:1: error: stray '\200' in program
+../src/helloworld.c:55:1: error: stray '\343' in program
+../src/helloworld.c:55:1: error: stray '\200' in program
+../src/helloworld.c:55:1: error: stray '\200' in program
+../src/helloworld.c:55:1: error: stray '\343' in program
+../src/helloworld.c:55:1: error: stray '\200' in program
+../src/helloworld.c:55:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\343' in program
+ 　　　　}Desc;
+ ^
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\343' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\343' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\343' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+../src/helloworld.c:57:1: error: stray '\200' in program
+make: *** [src/helloworld.o] Error 1
+14:57:10 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:54:1: error: stray '\343' in program
+ 　　　　unsigned int a;
+ ^
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\343' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\343' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\343' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+make: *** [src/helloworld.o] Error 1
+14:58:24 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:54:1: error: stray '\343' in program
+ 　　　　unsigned int a;
+ ^
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\343' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\343' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\343' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+make: *** [src/helloworld.o] Error 1
+15:06:10 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+../src/helloworld.c:54:1: error: stray '\343' in program
+ 　　　　 int a;
+ ^
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\343' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\343' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\343' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+make: *** [src/helloworld.o] Error 1
+15:06:19 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+../src/helloworld.c:54:1: error: stray '\343' in program
+ 　　　　 int a;
+ ^
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\343' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\343' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\343' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+make: *** [src/helloworld.o] Error 1
+15:06:22 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:54:1: error: stray '\343' in program
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+ 　　　　 int a;
+ ^
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\343' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\343' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\343' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+../src/helloworld.c:54:1: error: stray '\200' in program
+make: *** [src/helloworld.o] Error 1
+15:06:39 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:53:16: error: stray '\357' in program
+ typedef struct myDescriptor （int a;
+                ^
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+../src/helloworld.c:53:16: error: stray '\274' in program
+../src/helloworld.c:53:16: error: stray '\210' in program
+../src/helloworld.c:53:32: error: two or more data types in declaration specifiers
+ typedef struct myDescriptor （int a;
+                                ^
+../src/helloworld.c:55:1: error: stray '\357' in program
+ ）Desc;
+ ^
+../src/helloworld.c:55:1: error: stray '\274' in program
+../src/helloworld.c:55:1: error: stray '\211' in program
+../src/helloworld.c:55:4: warning: data definition has no type or storage class
+ ）Desc;
+    ^
+../src/helloworld.c:55:4: warning: type defaults to 'int' in declaration of 'Desc' [-Wimplicit-int]
+make: *** [src/helloworld.o] Error 1
+15:06:49 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:55:1: warning: useless storage class specifier in empty declaration
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+ };
+ ^
+../src/helloworld.c:57:1: error: stray '\357' in program
+ ）Desc;
+ ^
+../src/helloworld.c:57:1: error: stray '\274' in program
+../src/helloworld.c:57:1: error: stray '\211' in program
+../src/helloworld.c:57:4: warning: data definition has no type or storage class
+ ）Desc;
+    ^
+../src/helloworld.c:57:4: warning: type defaults to 'int' in declaration of 'Desc' [-Wimplicit-int]
+make: *** [src/helloworld.o] Error 1
+15:06:59 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:58:1: error: stray '\357' in program
+ ）Desc;
+ ^
+../src/helloworld.c:58:1: error: stray '\274' in program
+../src/helloworld.c:58:1: error: stray '\211' in program
+../src/helloworld.c:58:4: error: expected specifier-qualifier-list before 'Desc'
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+ ）Desc;
+    ^
+make: *** [src/helloworld.o] Error 1
+15:07:04 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:56:1: error: stray '\357' in program
+ ）Desc;
+ ^
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+../src/helloworld.c:56:1: error: stray '\274' in program
+../src/helloworld.c:56:1: error: stray '\211' in program
+../src/helloworld.c:56:4: error: expected specifier-qualifier-list before 'Desc'
+ ）Desc;
+    ^
+make: *** [src/helloworld.o] Error 1
+15:07:08 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:07:18 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:10:26 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22888	   1152	  22564	  46604	   b60c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:10:57 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22924	   1152	  22564	  46640	   b630	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:11:02 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22924	   1152	  22564	  46640	   b630	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:11:42 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:65:11: error: expected declaration specifiers or '...' before string constant
+     print("==Test begin\n\r");
+           ^
+make: *** [src/helloworld.o] Error 1
+15:12:04 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:64:10: warning: unused variable 'desc1' [-Wunused-variable]
+     Desc desc1;
+          ^
+../src/helloworld.c:63:10: warning: unused variable 'desc0' [-Wunused-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22932	   1152	  22564	  46648	   b638	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:12:24 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:65:10: warning: unused variable 'desc2' [-Wunused-variable]
+     Desc desc2;
+          ^
+../src/helloworld.c:64:10: warning: unused variable 'desc1' [-Wunused-variable]
+     Desc desc1;
+          ^
+../src/helloworld.c:63:10: warning: unused variable 'desc0' [-Wunused-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22932	   1152	  22564	  46648	   b638	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:13:15 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:68:18: error: redeclaration of 'data0' with no linkage
+     unsigned int data0 [1024];
+                  ^
+../src/helloworld.c:67:18: note: previous declaration of 'data0' was here
+     unsigned int data0 [1024];
+                  ^
+../src/helloworld.c:69:18: error: redeclaration of 'data0' with no linkage
+     unsigned int data0 [1024];
+                  ^
+../src/helloworld.c:68:18: note: previous declaration of 'data0' was here
+     unsigned int data0 [1024];
+                  ^
+../src/helloworld.c:69:18: warning: unused variable 'data0' [-Wunused-variable]
+     unsigned int data0 [1024];
+                  ^
+../src/helloworld.c:65:10: warning: unused variable 'desc2' [-Wunused-variable]
+     Desc desc2;
+          ^
+../src/helloworld.c:64:10: warning: unused variable 'desc1' [-Wunused-variable]
+     Desc desc1;
+          ^
+../src/helloworld.c:63:10: warning: unused variable 'desc0' [-Wunused-variable]
+     Desc desc0;
+          ^
+make: *** [src/helloworld.o] Error 1
+15:13:22 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:69:18: warning: unused variable 'data2' [-Wunused-variable]
+     unsigned int data2 [1024];
+                  ^
+../src/helloworld.c:68:18: warning: unused variable 'data1' [-Wunused-variable]
+     unsigned int data1 [1024];
+                  ^
+../src/helloworld.c:67:18: warning: unused variable 'data0' [-Wunused-variable]
+     unsigned int data0 [1024];
+                  ^
+../src/helloworld.c:65:10: warning: unused variable 'desc2' [-Wunused-variable]
+     Desc desc2;
+          ^
+../src/helloworld.c:64:10: warning: unused variable 'desc1' [-Wunused-variable]
+     Desc desc1;
+          ^
+../src/helloworld.c:63:10: warning: unused variable 'desc0' [-Wunused-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22936	   1152	  22564	  46652	   b63c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:13:25 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:69:18: warning: unused variable 'data2' [-Wunused-variable]
+     unsigned int data2[1024];
+                  ^
+../src/helloworld.c:68:18: warning: unused variable 'data1' [-Wunused-variable]
+     unsigned int data1[1024];
+                  ^
+../src/helloworld.c:67:18: warning: unused variable 'data0' [-Wunused-variable]
+     unsigned int data0[1024];
+                  ^
+../src/helloworld.c:65:10: warning: unused variable 'desc2' [-Wunused-variable]
+     Desc desc2;
+          ^
+../src/helloworld.c:64:10: warning: unused variable 'desc1' [-Wunused-variable]
+     Desc desc1;
+          ^
+../src/helloworld.c:63:10: warning: unused variable 'desc0' [-Wunused-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22936	   1152	  22564	  46652	   b63c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:13:49 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:73:18: warning: unused variable 'data2' [-Wunused-variable]
+     unsigned int data2[1024]= {
+                  ^
+../src/helloworld.c:70:18: warning: unused variable 'data1' [-Wunused-variable]
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+     unsigned int data1[1024] = {
+                  ^
+../src/helloworld.c:67:18: warning: unused variable 'data0' [-Wunused-variable]
+     unsigned int data0[1024] ={
+                  ^
+../src/helloworld.c:65:10: warning: unused variable 'desc2' [-Wunused-variable]
+     Desc desc2;
+          ^
+../src/helloworld.c:64:10: warning: unused variable 'desc1' [-Wunused-variable]
+     Desc desc1;
+          ^
+../src/helloworld.c:63:10: warning: unused variable 'desc0' [-Wunused-variable]
+     Desc desc0;
+          ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:77:11: error: expected declaration specifiers or '...' before string constant
+     print("==Test begin\n\r");
+           ^
+../src/helloworld.c:78:11: error: expected declaration specifiers or '...' before string constant
+     print("==Initial descriptor\n\r");
+           ^
+../src/helloworld.c:87:5: warning: data definition has no type or storage class
+     cleanup_platform();
+     ^
+../src/helloworld.c:87:5: warning: type defaults to 'int' in declaration of 'cleanup_platform' [-Wimplicit-int]
+../src/helloworld.c:87:5: error: conflicting types for 'cleanup_platform'
+In file included from ../src/helloworld.c:49:0:
+../src/platform.h:39:6: note: previous declaration of 'cleanup_platform' was here
+ void cleanup_platform();
+      ^
+../src/helloworld.c:88:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^
+../src/helloworld.c:89:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:75:5: warning: control reaches end of non-void function [-Wreturn-type]
+     };
+     ^
+make: *** [src/helloworld.o] Error 1
+15:14:20 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:69:18: warning: unused variable 'data2' [-Wunused-variable]
+     unsigned int data2[1024];
+                  ^
+../src/helloworld.c:68:18: warning: unused variable 'data1' [-Wunused-variable]
+     unsigned int data1[1024];
+                  ^
+../src/helloworld.c:67:18: warning: unused variable 'data0' [-Wunused-variable]
+     unsigned int data0[1024];
+                  ^
+../src/helloworld.c:65:10: warning: unused variable 'desc2' [-Wunused-variable]
+     Desc desc2;
+          ^
+../src/helloworld.c:64:10: warning: unused variable 'desc1' [-Wunused-variable]
+     Desc desc1;
+          ^
+../src/helloworld.c:63:10: warning: unused variable 'desc0' [-Wunused-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22936	   1152	  22564	  46652	   b63c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:15:41 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:69:18: warning: variable 'data2' set but not used [-Wunused-but-set-variable]
+     unsigned int data2[1024];
+                  ^
+../src/helloworld.c:68:18: warning: variable 'data1' set but not used [-Wunused-but-set-variable]
+     unsigned int data1[1024];
+                  ^
+../src/helloworld.c:67:18: warning: variable 'data0' set but not used [-Wunused-but-set-variable]
+     unsigned int data0[1024];
+                  ^
+../src/helloworld.c:65:10: warning: unused variable 'desc2' [-Wunused-variable]
+     Desc desc2;
+          ^
+../src/helloworld.c:64:10: warning: unused variable 'desc1' [-Wunused-variable]
+     Desc desc1;
+          ^
+../src/helloworld.c:63:10: warning: unused variable 'desc0' [-Wunused-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23108	   1152	  22564	  46824	   b6e8	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:15:49 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:69:18: warning: variable 'data2' set but not used [-Wunused-but-set-variable]
+     unsigned int data2[1024];
+                  ^
+../src/helloworld.c:68:18: warning: variable 'data1' set but not used [-Wunused-but-set-variable]
+     unsigned int data1[1024];
+                  ^
+../src/helloworld.c:67:18: warning: variable 'data0' set but not used [-Wunused-but-set-variable]
+     unsigned int data0[1024];
+                  ^
+../src/helloworld.c:65:10: warning: unused variable 'desc2' [-Wunused-variable]
+     Desc desc2;
+          ^
+../src/helloworld.c:64:10: warning: unused variable 'desc1' [-Wunused-variable]
+     Desc desc1;
+          ^
+../src/helloworld.c:63:10: warning: unused variable 'desc0' [-Wunused-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23108	   1152	  22564	  46824	   b6e8	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:16:00 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:69:18: warning: variable 'data2' set but not used [-Wunused-but-set-variable]
+     unsigned int data2[1024];
+                  ^
+../src/helloworld.c:68:18: warning: variable 'data1' set but not used [-Wunused-but-set-variable]
+     unsigned int data1[1024];
+                  ^
+../src/helloworld.c:67:18: warning: variable 'data0' set but not used [-Wunused-but-set-variable]
+     unsigned int data0[1024];
+                  ^
+../src/helloworld.c:65:10: warning: unused variable 'desc2' [-Wunused-variable]
+     Desc desc2;
+          ^
+../src/helloworld.c:64:10: warning: unused variable 'desc1' [-Wunused-variable]
+     Desc desc1;
+          ^
+../src/helloworld.c:63:10: warning: unused variable 'desc0' [-Wunused-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23108	   1152	  22564	  46824	   b6e8	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:16:45 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:82:21: warning: assignment from incompatible pointer type
+     desc0.next_desc = & desc1;
+                     ^
+../src/helloworld.c:83:21: warning: assignment from incompatible pointer type
+     desc1.next_desc = & desc2;
+                     ^
+../src/helloworld.c:69:18: warning: variable 'data2' set but not used [-Wunused-but-set-variable]
+     unsigned int data2[1024];
+                  ^
+../src/helloworld.c:68:18: warning: variable 'data1' set but not used [-Wunused-but-set-variable]
+     unsigned int data1[1024];
+                  ^
+../src/helloworld.c:67:18: warning: variable 'data0' set but not used [-Wunused-but-set-variable]
+     unsigned int data0[1024];
+                  ^
+../src/helloworld.c:63:10: warning: variable 'desc0' set but not used [-Wunused-but-set-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23132	   1152	  22564	  46848	   b700	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:19:25 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:82:21: warning: assignment from incompatible pointer type
+     desc0.next_desc = & desc1;
+                     ^
+../src/helloworld.c:83:21: warning: assignment from incompatible pointer type
+     desc1.next_desc = & desc2;
+                     ^
+../src/helloworld.c:63:10: warning: variable 'desc0' set but not used [-Wunused-but-set-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23180	   1152	  22564	  46896	   b730	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:20:37 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:85:21: warning: assignment from incompatible pointer type
+     desc0.next_desc = & desc1;
+                     ^
+../src/helloworld.c:86:21: warning: assignment from incompatible pointer type
+     desc1.next_desc = & desc2;
+                     ^
+../src/helloworld.c:71:18: warning: unused variable 'data3' [-Wunused-variable]
+     unsigned int data3[1024];
+                  ^
+../src/helloworld.c:66:10: warning: unused variable 'desc3' [-Wunused-variable]
+     Desc desc3;
+          ^
+../src/helloworld.c:63:10: warning: variable 'desc0' set but not used [-Wunused-but-set-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23200	   1152	  22564	  46916	   b744	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:21:05 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:85:21: warning: assignment from incompatible pointer type
+     desc0.next_desc = & desc1;
+                     ^
+../src/helloworld.c:86:21: warning: assignment from incompatible pointer type
+     desc1.next_desc = & desc2;
+                     ^
+../src/helloworld.c:87:21: warning: assignment from incompatible pointer type
+     desc2.next_desc = & desc3;
+                     ^
+../src/helloworld.c:71:18: warning: unused variable 'data3' [-Wunused-variable]
+     unsigned int data3[1024];
+                  ^
+../src/helloworld.c:63:10: warning: variable 'desc0' set but not used [-Wunused-but-set-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23224	   1152	  22564	  46940	   b75c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:21:10 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:85:21: warning: assignment from incompatible pointer type
+     desc0.next_desc = & desc1;
+                     ^
+../src/helloworld.c:86:21: warning: assignment from incompatible pointer type
+     desc1.next_desc = & desc2;
+                     ^
+../src/helloworld.c:87:21: warning: assignment from incompatible pointer type
+     desc2.next_desc = & desc3;
+                     ^
+../src/helloworld.c:63:10: warning: variable 'desc0' set but not used [-Wunused-but-set-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23224	   1152	  22564	  46940	   b75c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:21:39 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:85:21: warning: assignment from incompatible pointer type
+     desc0.next_desc = & desc1;
+                     ^
+../src/helloworld.c:86:21: warning: assignment from incompatible pointer type
+     desc1.next_desc = & desc2;
+                     ^
+../src/helloworld.c:87:21: warning: assignment from incompatible pointer type
+     desc2.next_desc = & desc3;
+                     ^
+../src/helloworld.c:63:10: warning: variable 'desc0' set but not used [-Wunused-but-set-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23248	   1152	  22564	  46964	   b774	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:21:57 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:85:21: warning: assignment from incompatible pointer type
+     desc0.next_desc = & desc1;
+                     ^
+../src/helloworld.c:86:21: warning: assignment from incompatible pointer type
+     desc1.next_desc = & desc2;
+                     ^
+../src/helloworld.c:87:21: warning: assignment from incompatible pointer type
+     desc2.next_desc = & desc3;
+                     ^
+../src/helloworld.c:63:10: warning: variable 'desc0' set but not used [-Wunused-but-set-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23256	   1152	  22564	  46972	   b77c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:22:02 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:85:21: warning: assignment from incompatible pointer type
+     desc0.next_desc = & desc1;
+                     ^
+../src/helloworld.c:86:21: warning: assignment from incompatible pointer type
+     desc1.next_desc = & desc2;
+                     ^
+../src/helloworld.c:87:21: warning: assignment from incompatible pointer type
+     desc2.next_desc = & desc3;
+                     ^
+../src/helloworld.c:63:10: warning: variable 'desc0' set but not used [-Wunused-but-set-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23256	   1152	  22564	  46972	   b77c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:22:17 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:85:21: warning: assignment from incompatible pointer type
+     desc0.next_desc = & desc1;
+                     ^
+../src/helloworld.c:86:21: warning: assignment from incompatible pointer type
+     desc1.next_desc = & desc2;
+                     ^
+../src/helloworld.c:87:21: warning: assignment from incompatible pointer type
+     desc2.next_desc = & desc3;
+                     ^
+../src/helloworld.c:63:10: warning: variable 'desc0' set but not used [-Wunused-but-set-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23256	   1152	  22564	  46972	   b77c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:22:35 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:86:21: warning: assignment from incompatible pointer type
+     desc1.next_desc = & desc2;
+                     ^
+../src/helloworld.c:87:21: warning: assignment from incompatible pointer type
+     desc2.next_desc = & desc3;
+                     ^
+../src/helloworld.c:63:10: warning: variable 'desc0' set but not used [-Wunused-but-set-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23256	   1152	  22564	  46972	   b77c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:22:47 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:86:21: warning: assignment from incompatible pointer type
+     desc1.next_desc = & desc2;
+                     ^
+../src/helloworld.c:87:21: warning: assignment from incompatible pointer type
+     desc2.next_desc = & desc3;
+                     ^
+../src/helloworld.c:63:10: warning: variable 'desc0' set but not used [-Wunused-but-set-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23256	   1152	  22564	  46972	   b77c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:23:00 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23256	   1152	  22564	  46972	   b77c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:66:10: warning: variable 'desc3' set but not used [-Wunused-but-set-variable]
+     Desc desc3;
+          ^
+../src/helloworld.c:65:10: warning: variable 'desc2' set but not used [-Wunused-but-set-variable]
+     Desc desc2;
+          ^
+../src/helloworld.c:63:10: warning: variable 'desc0' set but not used [-Wunused-but-set-variable]
+     Desc desc0;
+          ^
+15:23:06 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:10: warning: variable 'desc0' set but not used [-Wunused-but-set-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23256	   1152	  22564	  46972	   b77c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:23:10 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:10: warning: variable 'desc0' set but not used [-Wunused-but-set-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23256	   1152	  22564	  46972	   b77c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:24:06 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:10: warning: variable 'desc0' set but not used [-Wunused-but-set-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23288	   1152	  22564	  47004	   b79c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:25:17 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:10: warning: variable 'desc0' set but not used [-Wunused-but-set-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23344	   1152	  22564	  47060	   b7d4	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:25:21 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:10: warning: variable 'desc0' set but not used [-Wunused-but-set-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23348	   1152	  22564	  47064	   b7d8	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:25:30 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:10: warning: variable 'desc0' set but not used [-Wunused-but-set-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23352	   1152	  22564	  47068	   b7dc	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:26:01 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:63:10: warning: variable 'desc0' set but not used [-Wunused-but-set-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23352	   1152	  22564	  47068	   b7dc	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:28:35 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:102:5: warning: implicit declaration of function 'MYIP_mWriteReg' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(BaseAddress, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, Data)
+     ^
+../src/helloworld.c:102:20: error: 'BaseAddress' undeclared (first use in this function)
+     MYIP_mWriteReg(BaseAddress, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, Data)
+                    ^
+../src/helloworld.c:102:20: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:102:33: error: 'MYIP_S00_AXI_LITE_SLV_REG0_OFFSET' undeclared (first use in this function)
+     MYIP_mWriteReg(BaseAddress, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, Data)
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+                                 ^
+../src/helloworld.c:102:68: error: 'Data' undeclared (first use in this function)
+     MYIP_mWriteReg(BaseAddress, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, Data)
+                                                                    ^
+../src/helloworld.c:110:5: error: expected ';' before 'cleanup_platform'
+     cleanup_platform();
+     ^
+../src/helloworld.c:63:10: warning: variable 'desc0' set but not used [-Wunused-but-set-variable]
+     Desc desc0;
+          ^
+make: *** [src/helloworld.o] Error 1
+15:29:01 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:103:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+     MYIP_mWriteReg(BaseAddress, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, Data)
+     ^
+In file included from ../src/helloworld.c:50:0:
+../src/helloworld.c:103:20: error: 'BaseAddress' undeclared (first use in this function)
+     MYIP_mWriteReg(BaseAddress, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, Data)
+                    ^
+../../hello_world_bsp/ps7_cortexa9_0/include/myip.h:63:15: note: in definition of macro 'MYIP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^
+../src/helloworld.c:103:20: note: each undeclared identifier is reported only once for each function it appears in
+     MYIP_mWriteReg(BaseAddress, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, Data)
+                    ^
+../../hello_world_bsp/ps7_cortexa9_0/include/myip.h:63:15: note: in definition of macro 'MYIP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^
+../src/helloworld.c:103:68: error: 'Data' undeclared (first use in this function)
+     MYIP_mWriteReg(BaseAddress, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, Data)
+                                                                    ^
+../../hello_world_bsp/ps7_cortexa9_0/include/myip.h:63:49: note: in definition of macro 'MYIP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:111:5: error: expected ';' before 'cleanup_platform'
+     cleanup_platform();
+     ^
+../src/helloworld.c:64:10: warning: variable 'desc0' set but not used [-Wunused-but-set-variable]
+     Desc desc0;
+          ^
+make: *** [src/helloworld.o] Error 1
+15:29:21 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:103:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff_0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, Data)
+     ^
+In file included from ../src/helloworld.c:50:0:
+../src/helloworld.c:103:20: error: invalid suffix "_0000" on integer constant
+     MYIP_mWriteReg(0x4fff_0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, Data)
+                    ^
+../../hello_world_bsp/ps7_cortexa9_0/include/myip.h:63:15: note: in definition of macro 'MYIP_mWriteReg'
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^
+../src/helloworld.c:103:68: error: 'Data' undeclared (first use in this function)
+     MYIP_mWriteReg(0x4fff_0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, Data)
+                                                                    ^
+../../hello_world_bsp/ps7_cortexa9_0/include/myip.h:63:49: note: in definition of macro 'MYIP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:103:68: note: each undeclared identifier is reported only once for each function it appears in
+     MYIP_mWriteReg(0x4fff_0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, Data)
+                                                                    ^
+../../hello_world_bsp/ps7_cortexa9_0/include/myip.h:63:49: note: in definition of macro 'MYIP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:111:5: error: expected ';' before 'cleanup_platform'
+     cleanup_platform();
+     ^
+../src/helloworld.c:64:10: warning: variable 'desc0' set but not used [-Wunused-but-set-variable]
+     Desc desc0;
+          ^
+make: *** [src/helloworld.o] Error 1
+15:29:35 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:103:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff_0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0)
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+     ^
+In file included from ../src/helloworld.c:50:0:
+../src/helloworld.c:103:20: error: invalid suffix "_0000" on integer constant
+     MYIP_mWriteReg(0x4fff_0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0)
+                    ^
+../../hello_world_bsp/ps7_cortexa9_0/include/myip.h:63:15: note: in definition of macro 'MYIP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^
+../src/helloworld.c:111:5: error: expected ';' before 'cleanup_platform'
+     cleanup_platform();
+     ^
+make: *** [src/helloworld.o] Error 1
+15:29:37 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:103:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+     MYIP_mWriteReg(0x4fff_0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+In file included from ../src/helloworld.c:50:0:
+../src/helloworld.c:103:20: error: invalid suffix "_0000" on integer constant
+     MYIP_mWriteReg(0x4fff_0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+                    ^
+../../hello_world_bsp/ps7_cortexa9_0/include/myip.h:63:15: note: in definition of macro 'MYIP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^
+make: *** [src/helloworld.o] Error 1
+15:30:17 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:105:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff_0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+In file included from ../src/helloworld.c:52:0:
+../src/helloworld.c:105:20: error: invalid suffix "_0000" on integer constant
+     MYIP_mWriteReg(0x4fff_0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+                    ^
+../../hello_world_bsp/ps7_cortexa9_0/include/myip.h:63:15: note: in definition of macro 'MYIP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^
+make: *** [src/helloworld.o] Error 1
+15:32:29 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:56:21: fatal error: xgpio_l.h: No such file or directory
+ #include "xgpio_l.h"
+                     ^
+compilation terminated.
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+make: *** [src/helloworld.o] Error 1
+15:32:49 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:58:6: error: conflicting types for 'print'
+ void print(char *str);
+      ^
+In file included from ../src/helloworld.c:53:0:
+../../hello_world_bsp/ps7_cortexa9_0/include/xil_printf.h:36:6: note: previous declaration of 'print' was here
+ void print( const char8 *ptr);
+      ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:109:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff_0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+In file included from ../src/helloworld.c:52:0:
+../src/helloworld.c:109:20: error: invalid suffix "_0000" on integer constant
+     MYIP_mWriteReg(0x4fff_0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+                    ^
+../../hello_world_bsp/ps7_cortexa9_0/include/myip.h:63:15: note: in definition of macro 'MYIP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+make: *** [src/helloworld.o] Error 1
+15:33:36 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:58:6: error: conflicting types for 'print'
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+ void print(char *str);
+      ^
+In file included from ../src/helloworld.c:53:0:
+../../hello_world_bsp/ps7_cortexa9_0/include/xil_printf.h:36:6: note: previous declaration of 'print' was here
+ void print( const char8 *ptr);
+      ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:89:5: warning: implicit declaration of function 'xil_print' [-Wimplicit-function-declaration]
+     xil_print("==Test begin\n\r");
+     ^
+../src/helloworld.c:109:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff_0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+In file included from ../src/helloworld.c:52:0:
+../src/helloworld.c:109:20: error: invalid suffix "_0000" on integer constant
+     MYIP_mWriteReg(0x4fff_0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+                    ^
+../../hello_world_bsp/ps7_cortexa9_0/include/myip.h:63:15: note: in definition of macro 'MYIP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^
+make: *** [src/helloworld.o] Error 1
+15:33:52 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:58:6: error: conflicting types for 'print'
+ void print(char *str);
+      ^
+In file included from ../src/helloworld.c:53:0:
+../../hello_world_bsp/ps7_cortexa9_0/include/xil_printf.h:36:6: note: previous declaration of 'print' was here
+ void print( const char8 *ptr);
+      ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:89:5: warning: implicit declaration of function 'xil_print' [-Wimplicit-function-declaration]
+     xil_print("==Test begin\n\r");
+     ^
+../src/helloworld.c:109:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+make: *** [src/helloworld.o] Error 1
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+15:34:04 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:58:6: error: conflicting types for 'print'
+ void print(char *str);
+      ^
+In file included from ../src/helloworld.c:53:0:
+../../hello_world_bsp/ps7_cortexa9_0/include/xil_printf.h:36:6: note: previous declaration of 'print' was here
+ void print( const char8 *ptr);
+      ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:89:5: warning: implicit declaration of function 'xil_print' [-Wimplicit-function-declaration]
+     xil_print("==Test begin\n\r");
+     ^
+../src/helloworld.c:109:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+make: *** [src/helloworld.o] Error 1
+15:34:51 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:89:5: warning: implicit declaration of function 'xil_print' [-Wimplicit-function-declaration]
+     xil_print("==Test begin\n\r");
+     ^
+../src/helloworld.c:109:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+/home/node003/work/proj/spiral/dma/project_1/project_1.sdk/hello_world/Debug/../src/helloworld.c:89: undefined reference to `xil_print'
+makefile:36: recipe for target 'hello_world.elf' failed
+/home/node003/work/proj/spiral/dma/project_1/project_1.sdk/hello_world/Debug/../src/helloworld.c:90: undefined reference to `xil_print'
+/home/node003/work/proj/spiral/dma/project_1/project_1.sdk/hello_world/Debug/../src/helloworld.c:105: undefined reference to `xil_print'
+/home/node003/work/proj/spiral/dma/project_1/project_1.sdk/hello_world/Debug/../src/helloworld.c:107: undefined reference to `xil_print'
+collect2: error: ld returned 1 exit status
+make: *** [hello_world.elf] Error 1
+15:35:12 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:90:5: warning: implicit declaration of function 'xil_print' [-Wimplicit-function-declaration]
+     xil_print("==Step1. Initial descriptor and data \n\r");
+     ^
+../src/helloworld.c:109:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+/home/node003/work/proj/spiral/dma/project_1/project_1.sdk/hello_world/Debug/../src/helloworld.c:90: undefined reference to `xil_print'
+/home/node003/work/proj/spiral/dma/project_1/project_1.sdk/hello_world/Debug/../src/helloworld.c:105: undefined reference to `xil_print'
+/home/node003/work/proj/spiral/dma/project_1/project_1.sdk/hello_world/Debug/../src/helloworld.c:107: undefined reference to `xil_print'
+collect2: error: ld returned 1 exit status
+make: *** [hello_world.elf] Error 1
+makefile:36: recipe for target 'hello_world.elf' failed
+15:35:14 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:105:5: warning: implicit declaration of function 'xil_print' [-Wimplicit-function-declaration]
+     xil_print("==Step2. Flush out dcache \n\r");
+     ^
+../src/helloworld.c:109:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+/home/node003/work/proj/spiral/dma/project_1/project_1.sdk/hello_world/Debug/../src/helloworld.c:105: undefined reference to `xil_print'
+/home/node003/work/proj/spiral/dma/project_1/project_1.sdk/hello_world/Debug/../src/helloworld.c:107: undefined reference to `xil_print'
+makefile:36: recipe for target 'hello_world.elf' failed
+collect2: error: ld returned 1 exit status
+make: *** [hello_world.elf] Error 1
+15:35:19 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:109:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25592	   1152	  22564	  49308	   c09c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:37:56 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for 'all'.
+15:38:11 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+../src/helloworld.c: In function 'Xil_In32':
+../src/helloworld.c:58:1: error: 'SYNCHRONIZE_IO' undeclared (first use in this function)
+ SYNCHRONIZE_IO;
+ ^
+../src/helloworld.c:58:1: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c: In function 'Xil_Out32':
+../src/helloworld.c:68:1: error: 'SYNCHRONIZE_IO' undeclared (first use in this function)
+ SYNCHRONIZE_IO;
+ ^
+make: *** [src/helloworld.o] Error 1
+15:51:46 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'Xil_In32':
+../src/helloworld.c:58:1: error: 'SYNCHRONIZE_IO' undeclared (first use in this function)
+ SYNCHRONIZE_IO;
+ ^
+../src/helloworld.c:58:1: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c: In function 'Xil_Out32':
+../src/helloworld.c:68:1: error: 'SYNCHRONIZE_IO' undeclared (first use in this function)
+ SYNCHRONIZE_IO;
+ ^
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+make: *** [src/helloworld.o] Error 1
+15:55:04 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+../src/helloworld.c: In function 'Xil_In32':
+../src/helloworld.c:57:1: error: 'SYNCHRONIZE_IO' undeclared (first use in this function)
+ SYNCHRONIZE_IO;
+ ^
+../src/helloworld.c:57:1: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c: In function 'Xil_Out32':
+../src/helloworld.c:67:1: error: 'SYNCHRONIZE_IO' undeclared (first use in this function)
+ SYNCHRONIZE_IO;
+ ^
+make: *** [src/helloworld.o] Error 1
+15:55:13 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+../src/helloworld.c: In function 'Xil_In32':
+../src/helloworld.c:58:1: error: 'SYNCHRONIZE_IO' undeclared (first use in this function)
+ SYNCHRONIZE_IO;
+ ^
+../src/helloworld.c:58:1: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c: In function 'Xil_Out32':
+../src/helloworld.c:68:1: error: 'SYNCHRONIZE_IO' undeclared (first use in this function)
+ SYNCHRONIZE_IO;
+ ^
+make: *** [src/helloworld.o] Error 1
+15:55:25 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:52:10: error: #include expects "FILENAME" or <FILENAME>
+ #include myip.h"
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+          ^
+../src/helloworld.c:52:16: warning: missing terminating " character
+ #include myip.h"
+                ^
+../src/helloworld.c: In function 'Xil_In32':
+../src/helloworld.c:58:1: error: 'SYNCHRONIZE_IO' undeclared (first use in this function)
+ SYNCHRONIZE_IO;
+ ^
+../src/helloworld.c:58:1: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c: In function 'Xil_Out32':
+../src/helloworld.c:68:1: error: 'SYNCHRONIZE_IO' undeclared (first use in this function)
+ SYNCHRONIZE_IO;
+ ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:121:5: warning: implicit declaration of function 'MYIP_mWriteReg' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+../src/helloworld.c:121:32: error: 'MYIP_S00_AXI_LITE_SLV_REG0_OFFSET' undeclared (first use in this function)
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+                                ^
+make: *** [src/helloworld.o] Error 1
+15:55:30 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'Xil_In32':
+../src/helloworld.c:58:1: error: 'SYNCHRONIZE_IO' undeclared (first use in this function)
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+ SYNCHRONIZE_IO;
+ ^
+../src/helloworld.c:58:1: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c: In function 'Xil_Out32':
+../src/helloworld.c:68:1: error: 'SYNCHRONIZE_IO' undeclared (first use in this function)
+ SYNCHRONIZE_IO;
+ ^
+make: *** [src/helloworld.o] Error 1
+15:56:27 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'Xil_In32':
+../src/helloworld.c:58:1: error: 'SYNCHRONIZE_IO' undeclared (first use in this function)
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+ SYNCHRONIZE_IO;
+ ^
+../src/helloworld.c:58:1: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c: In function 'Xil_Out32':
+../src/helloworld.c:68:1: error: 'SYNCHRONIZE_IO' undeclared (first use in this function)
+ SYNCHRONIZE_IO;
+ ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:82:10: warning: variable 'desc0' set but not used [-Wunused-but-set-variable]
+     Desc desc0;
+          ^
+make: *** [src/helloworld.o] Error 1
+15:56:37 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:69:10: warning: variable 'desc0' set but not used [-Wunused-but-set-variable]
+     Desc desc0;
+          ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25528	   1152	  22564	  49244	   c05c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:57:47 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:108:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25528	   1152	  22564	  49244	   c05c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:58:32 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:108:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25528	   1152	  22564	  49244	   c05c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:58:41 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:108:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25592	   1152	  22564	  49308	   c09c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:58:45 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:108:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25592	   1152	  22564	  49308	   c09c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+17:15:51 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:108:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25592	   1152	  22564	  49308	   c09c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+17:16:45 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:108:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25592	   1152	  22564	  49308	   c09c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+17:18:42 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for 'all'.
+17:19:21 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for 'all'.
+17:20:43 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for 'all'.
+17:21:08 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for 'all'.
+17:22:15 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for 'all'.
+17:23:33 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:108:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25592	   1152	  22564	  49308	   c09c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+17:23:36 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for 'all'.
+17:24:17 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for 'all'.
+17:29:48 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:110:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25592	   1152	  22564	  49308	   c09c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+17:30:09 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:110:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25592	   1152	  22564	  49308	   c09c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:09:45 **** Build of project hello_world_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_3/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/myip_v1_0/src
+make -C ps7_cortexa9_0/libsrc/myip_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_6/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_1/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_3/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling iicps
+Running Make libs in ps7_cortexa9_0/libsrc/myip_v1_0/src
+make -C ps7_cortexa9_0/libsrc/myip_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling myip...
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_6/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_1/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling ttcps
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scutimer
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling qspips
+Finished building libraries
+15:10:01 **** Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:110:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25592	   1152	  22564	  49308	   c09c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+15:25:23 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+make: Nothing to be done for 'all'.
+17:19:16 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:110:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+../src/helloworld.c:117:5: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+     while(MYIP_mReadReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG7_OFFSET) != 4) {}
+     ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25592	   1152	  22564	  49308	   c09c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+17:19:22 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:110:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+Finished building: ../src/helloworld.c
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+../src/helloworld.c:117:5: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+     while(MYIP_mReadReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG7_OFFSET) != 4) {}
+     ^
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25592	   1152	  22564	  49308	   c09c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+17:19:31 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:110:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+../src/helloworld.c:117:5: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+     while(MYIP_mReadReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG7_OFFSET) != 4) {}
+     ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25592	   1152	  22564	  49308	   c09c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+17:19:57 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:110:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+../src/helloworld.c:117:5: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+     while(MYIP_mReadReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG7_OFFSET) != 4) {}
+     ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25720	   1152	  22564	  49436	   c11c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+17:20:02 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:110:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+../src/helloworld.c:117:5: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+     while(MYIP_mReadReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG7_OFFSET) != 4) {}
+     ^
+Finished building: ../src/helloworld.c
+ 
+Building target: hello_world.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_world_bsp/ps7_cortexa9_0/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: hello_world.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25720	   1152	  22564	  49436	   c11c	hello_world.elf
+Finished building: hello_world.elf.size
+ 
+17:20:54 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:110:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+../src/helloworld.c:117:5: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+     while(MYIP_mReadReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG7_OFFSET) != 4) {}
+     ^
+../src/helloworld.c:120:51: error: expected ')' before ']' token
+      xil_printf("data2[%d] is %d\n\r", i, data2[i]]);
+                                                   ^
+../src/helloworld.c:120:51: error: expected ';' before ']' token
+../src/helloworld.c:120:51: error: expected statement before ']' token
+../src/helloworld.c:120:52: error: expected statement before ')' token
+      xil_printf("data2[%d] is %d\n\r", i, data2[i]]);
+                                                    ^
+../src/helloworld.c:121:51: error: expected ')' before ']' token
+      xil_printf("data3[%d] is %d\n\r", i, data3[i]]);
+                                                   ^
+../src/helloworld.c:121:51: error: expected ';' before ']' token
+../src/helloworld.c:121:51: error: expected statement before ']' token
+../src/helloworld.c:121:52: error: expected statement before ')' token
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+      xil_printf("data3[%d] is %d\n\r", i, data3[i]]);
+                                                    ^
+make: *** [src/helloworld.o] Error 1
+17:20:59 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:110:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+../src/helloworld.c:117:5: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+     while(MYIP_mReadReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG7_OFFSET) != 4) {}
+     ^
+../src/helloworld.c:120:51: error: expected ')' before ']' token
+      xil_printf("data2[%d] is %d\n\r", i, data2[i]]);
+                                                   ^
+../src/helloworld.c:120:51: error: expected ';' before ']' token
+../src/helloworld.c:120:51: error: expected statement before ']' token
+../src/helloworld.c:120:52: error: expected statement before ')' token
+      xil_printf("data2[%d] is %d\n\r", i, data2[i]]);
+                                                    ^
+../src/helloworld.c:121:51: error: expected ')' before ']' token
+      xil_printf("data3[%d] is %d\n\r", i, data3[i]]);
+                                                   ^
+../src/helloworld.c:121:51: error: expected ';' before ']' token
+../src/helloworld.c:121:51: error: expected statement before ']' token
+../src/helloworld.c:121:52: error: expected statement before ')' token
+      xil_printf("data3[%d] is %d\n\r", i, data3[i]]);
+                                                    ^
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+make: *** [src/helloworld.o] Error 1
+17:21:39 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:110:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+../src/helloworld.c:117:5: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+     while(MYIP_mReadReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG7_OFFSET) != 4) {}
+     ^
+../src/helloworld.c:120:47: error: expected ')' before ']' token
+      printf("data2[%d] is %d\n\r", i, data2[i]]);
+                                               ^
+../src/helloworld.c:120:47: error: expected ';' before ']' token
+../src/helloworld.c:120:47: error: expected statement before ']' token
+../src/helloworld.c:120:48: error: expected statement before ')' token
+      printf("data2[%d] is %d\n\r", i, data2[i]]);
+                                                ^
+../src/helloworld.c:121:47: error: expected ')' before ']' token
+      printf("data3[%d] is %d\n\r", i, data3[i]]);
+                                               ^
+../src/helloworld.c:121:47: error: expected ';' before ']' token
+../src/helloworld.c:121:47: error: expected statement before ']' token
+../src/helloworld.c:121:48: error: expected statement before ')' token
+      printf("data3[%d] is %d\n\r", i, data3[i]]);
+                                                ^
+make: *** [src/helloworld.o] Error 1
+17:21:53 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:110:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+../src/helloworld.c:117:5: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+     while(MYIP_mReadReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG7_OFFSET) != 4) {
+     ^
+../src/helloworld.c:122:47: error: expected ')' before ']' token
+      printf("data2[%d] is %d\n\r", i, data2[i]]);
+                                               ^
+../src/helloworld.c:122:47: error: expected ';' before ']' token
+../src/helloworld.c:122:47: error: expected statement before ']' token
+../src/helloworld.c:122:48: error: expected statement before ')' token
+      printf("data2[%d] is %d\n\r", i, data2[i]]);
+                                                ^
+../src/helloworld.c:123:47: error: expected ')' before ']' token
+      printf("data3[%d] is %d\n\r", i, data3[i]]);
+                                               ^
+../src/helloworld.c:123:47: error: expected ';' before ']' token
+../src/helloworld.c:123:47: error: expected statement before ']' token
+../src/helloworld.c:123:48: error: expected statement before ')' token
+      printf("data3[%d] is %d\n\r", i, data3[i]]);
+                                                ^
+make: *** [src/helloworld.o] Error 1

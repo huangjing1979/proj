@@ -1,0 +1,33 @@
+17:21:53 **** Auto Build of configuration Debug for project hello_world ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../hello_world_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:110:5: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+     MYIP_mWriteReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG0_OFFSET, &desc0);
+     ^
+../src/helloworld.c:117:5: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+     while(MYIP_mReadReg(0x4fff0000, MYIP_S00_AXI_LITE_SLV_REG7_OFFSET) != 4) {
+     ^
+../src/helloworld.c:122:47: error: expected ')' before ']' token
+      printf("data2[%d] is %d\n\r", i, data2[i]]);
+                                               ^
+../src/helloworld.c:122:47: error: expected ';' before ']' token
+../src/helloworld.c:122:47: error: expected statement before ']' token
+../src/helloworld.c:122:48: error: expected statement before ')' token
+      printf("data2[%d] is %d\n\r", i, data2[i]]);
+                                                ^
+../src/helloworld.c:123:47: error: expected ')' before ']' token
+      printf("data3[%d] is %d\n\r", i, data3[i]]);
+                                               ^
+../src/helloworld.c:123:47: error: expected ';' before ']' token
+../src/helloworld.c:123:47: error: expected statement before ']' token
+../src/helloworld.c:123:48: error: expected statement before ')' token
+      printf("data3[%d] is %d\n\r", i, data3[i]]);
+                                                ^
+make: *** [src/helloworld.o] Error 1
+
+17:21:54 Build Finished (took 359ms)
+

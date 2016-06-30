@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<wave_config>
+	<wave_state>
+	</wave_state>
+	<db_ref_list>
+		<db_ref path="/home/node003/work/proj/spiral/dma/project_1/project_1.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1" type="auto">
+			<top_modules>
+				<top_module name="top">
+				</top_module>
+			</top_modules>
+		</db_ref>
+	</db_ref_list>
+	<WVObjectSize size="36">
+	</WVObjectSize>
+	<wvobject fp_name="design_1_i/myip_0/m00_axi_lite_awaddr" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/m00_axi_lite_awaddr[31:2]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/m00_axi_lite_awaddr[31:2]</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/m00_axi_lite_araddr" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/m00_axi_lite_araddr[31:2]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/m00_axi_lite_araddr[31:2]</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/m00_axi_lite_wdata" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/m00_axi_lite_wdata[2:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/m00_axi_lite_wdata[2:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/m00_axi_lite_rdata" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/m00_axi_lite_rdata[31:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/m00_axi_lite_rdata[31:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/m01_axi_araddr" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/m01_axi_araddr[31:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/m01_axi_araddr[31:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/m01_axi_rdata" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/m01_axi_rdata[31:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/m01_axi_rdata[31:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/m01_axi_awaddr" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/m01_axi_awaddr[31:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/m01_axi_awaddr[31:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/m01_axi_wdata" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/m01_axi_wdata[31:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/m01_axi_wdata[31:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/s00_axi_lite_araddr" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/s00_axi_lite_araddr[6:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/s00_axi_lite_araddr[6:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/s00_axi_lite_rdata" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/s00_axi_lite_rdata[31:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/s00_axi_lite_rdata[31:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/s00_axi_lite_awaddr" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/s00_axi_lite_awaddr[6:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/s00_axi_lite_awaddr[6:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/s00_axi_lite_wdata" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/s00_axi_lite_wdata[31:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/s00_axi_lite_wdata[31:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/inst/fft_wrapper_inst/in_fifo_full" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/inst/fft_wrapper_inst/in_fifo_full</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/inst/fft_wrapper_inst/in_fifo_full</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/m00_axi_lite_arready" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/m00_axi_lite_arready</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/m00_axi_lite_arready</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/m00_axi_lite_arvalid" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/m00_axi_lite_arvalid</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/m00_axi_lite_arvalid</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/m00_axi_lite_awready" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/m00_axi_lite_awready</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/m00_axi_lite_awready</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/m00_axi_lite_awvalid" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/m00_axi_lite_awvalid</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/m00_axi_lite_awvalid</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/m00_axi_lite_rready" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/m00_axi_lite_rready</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/m00_axi_lite_rready</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/m00_axi_lite_rvalid" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/m00_axi_lite_rvalid</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/m00_axi_lite_rvalid</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/m00_axi_lite_wready" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/m00_axi_lite_wready</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/m00_axi_lite_wready</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/m00_axi_lite_wvalid" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/m00_axi_lite_wvalid</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/m00_axi_lite_wvalid</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/m01_axi_awready" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/m01_axi_awready</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/m01_axi_awready</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/m01_axi_awvalid" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/m01_axi_awvalid</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/m01_axi_awvalid</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/m01_axi_rready" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/m01_axi_rready</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/m01_axi_rready</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/m01_axi_rvalid" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/m01_axi_rvalid</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/m01_axi_rvalid</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/m01_axi_wready" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/m01_axi_wready</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/m01_axi_wready</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/m01_axi_wvalid" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/m01_axi_wvalid</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/m01_axi_wvalid</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/inst/fft_wrapper_inst/next_out" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/inst/fft_wrapper_inst/next_out</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/inst/fft_wrapper_inst/next_out</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/s00_axi_lite_arready" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/s00_axi_lite_arready</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/s00_axi_lite_arready</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/s00_axi_lite_arvalid" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/s00_axi_lite_arvalid</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/s00_axi_lite_arvalid</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/s00_axi_lite_awready" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/s00_axi_lite_awready</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/s00_axi_lite_awready</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/s00_axi_lite_awvalid" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/s00_axi_lite_awvalid</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/s00_axi_lite_awvalid</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/s00_axi_lite_rready" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/s00_axi_lite_rready</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/s00_axi_lite_rready</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/s00_axi_lite_rvalid" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/s00_axi_lite_rvalid</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/s00_axi_lite_rvalid</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/s00_axi_lite_wready" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/s00_axi_lite_wready</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/s00_axi_lite_wready</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/myip_0/s00_axi_lite_wvalid" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/myip_0/s00_axi_lite_wvalid</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/myip_0/s00_axi_lite_wvalid</obj_property>
+	</wvobject>
+</wave_config>
+
