@@ -1,4 +1,36 @@
+==========step 1============
 rocket-chip fold is a submodule,
 do 
 git submodule update --init
 in current directory first.
+
+===========step 2===========
+then follow instructions from
+https://github.com/ucb-bar/rocket-chip
+to build up rocket-chip enviroment,
+Which includes:
+
+ $export RISCV=/path/to/install/riscv/toolchain
+
+ $cd rocket-chip
+ $git submodule update --init
+
+ $cd rocket-chip/riscv-tools
+ $git submodule update --init --recursive
+ $./build.sh
+
+ $cd emulator
+ $make
+
+ $cd vsim
+ $make
+ $cd fsim
+ $make verilog
+
+ $cd vsim
+ $make verilog
+
+ $git submodule update --init
+ $cd chisel
+ $git pull origin master
+
